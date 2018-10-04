@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="PracticaUsuarios.Maestro"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PracticaUsuarios"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="300">
+    <StackPanel Background="White">
+        <TextBlock Margin="10,0" x:Name="lblNombreAlumno"><Run Text="Nombre"/>.</TextBlock>
+        <TextBox Margin="10,0" x:Name="txtNombreAlumno"/>
+        <TextBlock Margin="10,0" x:Name="lblDireccionAlumno"><Run Text="Dirección."/></TextBlock>
+        <TextBox Margin="10,0" x:Name="txtDireccionAlumno"/>
+        <TextBlock Margin="10,0" x:Name="lblCarreraAlumno"><Run Text="Carrera"/>.</TextBlock>
+        <ComboBox Margin="10,0" x:Name="cbCarreraAlumno">
+            <ComboBoxItem Content="Ing. Producción Multimedia"/>
+        </ComboBox>
+        <TextBlock Margin="10,0" x:Name="lblPreparatoriaAlumno"><Run Text="Preparatoria de procedencia"/>.</TextBlock>
+        <TextBox Margin="10,0" x:Name="txtPreparatoriaAlumno"/>
+    </StackPanel>
+</UserControl>
